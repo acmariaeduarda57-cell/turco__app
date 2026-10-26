@@ -1,0 +1,25 @@
+ 
+
+name: turco
+description: Gestión de turnos de peluquería.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router:
+    path: libs/go_router
+
+  logging:
+    path: libs/logging
+  collection:
+    path: libs/collection
+  
+
+
+flutter:
+  uses-material-design: true
